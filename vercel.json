@@ -3,10 +3,6 @@
   "devCommand": "next dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "@next_public_site_url"
-  },
-  "envFile": ".env.local",
   "functions": {
     "pages/api/**": {
       "maxDuration": 30
